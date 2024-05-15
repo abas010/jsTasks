@@ -7,29 +7,31 @@ let divItems = $.querySelector("#listed");
 let color = $.querySelectorAll(".color-box");
 
 function addItem(e) {
-  let textVal = inputFild.value;
+  if (inputFild.value) {
+    let textVal = inputFild.value;
 
-  let divElem = $.createElement("div");
-  let pElem = $.createElement("p");
-  let colorDiv = inputFild.getAttribute("style");
+    let divElem = $.createElement("div");
+    let pElem = $.createElement("p");
+    let colorDiv = inputFild.getAttribute("style");
 
-  divElem.setAttribute("class", "card shadow-sm rounded ");
-  pElem.setAttribute("class", "card-text p-3");
+    divElem.setAttribute("class", "card shadow-sm rounded ");
+    pElem.setAttribute("class", "card-text p-3");
 
-  divElem.style = colorDiv;
+    divElem.style = colorDiv;
 
-  pElem.innerHTML = textVal;
+    pElem.innerHTML = textVal;
 
-  divElem.append(pElem);
-  divItems.append(divElem);
+    divElem.append(pElem);
+    divItems.append(divElem);
 
-  function removeItem(params) {
-    this.remove();
-  }
+    function removeItem(params) {
+      this.remove();
+    }
 
-  removeTextVal()
+    removeTextVal();
 
-  divElem.addEventListener("click", removeItem);
+    divElem.addEventListener("click", removeItem);
+  } else window.alert("The field is empty");
 }
 
 function addItemKeyEnter(e) {
