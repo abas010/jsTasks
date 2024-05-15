@@ -41,6 +41,7 @@ function addItemKeyEnter(e) {
 
 function removeTextVal(e) {
   inputFild.value = "";
+  inputFild.style.backgroundColor = "";
 }
 
 color.forEach(function (child) {
