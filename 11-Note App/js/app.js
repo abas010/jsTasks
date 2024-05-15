@@ -27,8 +27,7 @@ function addItem(e) {
     this.remove();
   }
 
-  inputFild.value = "";
-  inputFild.style.backgroundColor = "";
+  removeTextVal()
 
   divElem.addEventListener("click", removeItem);
 }
