@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "laptop",
+    "price": 2000000,
+    "src": "./Images/laptop.jpg",
+    "cont": 1
+  },
+  {
+    "id": 2,
+    "name": "phone",
+    "price": 1000000,
+    "src": "./Images/phone.jpg",
+    "cont": 1
+  },
+  {
+    "id": 3,
+    "name": "airpods",
+    "price": 500000,
+    "src": "./Images/AirPods.jpg",
+    "cont": 1
+  },
+  {
+    "id": 4,
+    "name": "hedphone",
+    "price": 500000,
+    "src": "./Images/hedphone.jpg",
+    "cont": 1
+  },
+  {
+    "id": 5,
+    "name": "speker",
+    "price": 500000,
+    "src": "./Images/speker.jpg",
+    "cont": 1
+  },
+  {
+    "id": 6,
+    "name": "mouse",
+    "price": 200000,
+    "src": "./Images/mouse.jpg",
+    "cont": 1
+  },
+  {
+    "id": 7,
+    "name": "keybord",
+    "price": 300000,
+    "src": "./Images/keybord.webp",
+    "cont": 1
+  },
+  {
+    "id": 8,
+    "name": "coolpad",
+    "price": 400000,
+    "src": "./Images/coolpad.jpg",
+    "cont": 1
+  }
+]
